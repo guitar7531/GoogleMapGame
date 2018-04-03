@@ -368,7 +368,7 @@ public class MapsActivity extends FullScreenActivity implements
 
     @Override
     public void onConnected(@Nullable Bundle bundle) {
-        Log.d(TAG, "onConnected - isConnected ...............: " + mGoogleApiClient.isConnected());
+        Log.d(TAG, "onConnected - isConnected ................: " + mGoogleApiClient.isConnected());
         startLocationUpdates();
     }
 

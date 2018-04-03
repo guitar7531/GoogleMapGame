@@ -335,7 +335,7 @@ public class MapsActivity extends FullScreenActivity implements
         Log.d(TAG, "Location requsest sending..............: ");
         @SuppressLint("MissingPermission") PendingResult<Status> pendingResult = LocationServices.FusedLocationApi.requestLocationUpdates(
                 mGoogleApiClient, mLocationRequest, this);
-        Log.d(TAG, "Location update started ..............: ");
+        Log.d(TAG, "Location update started ...............: ");
     }
 
     @Override
